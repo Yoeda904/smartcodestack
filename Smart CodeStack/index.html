@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SmartCodeStack.com — Premium Domain For Sale</title>
+  <meta name="description" content="SmartCodeStack.com is a premium .com domain for sale. Buy Now: $1,000. Call 904-576-3184 or email david@transcredit.com." />
+  <style>
+    :root{
+      --bg:#070A14;
+      --card:#0B1022;
+      --muted:#A7B0C4;
+      --text:#F5F7FF;
+      --line:rgba(255,255,255,.08);
+      --accent1:#7C3AED;
+      --accent2:#22D3EE;
+      --accent3:#10B981;
+      --shadow: 0 18px 60px rgba(0,0,0,.55);
+    }
+
+    *{ box-sizing:border-box; }
+    html,body{ height:100%; }
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      background: radial-gradient(900px 600px at 18% 20%, rgba(124,58,237,.22), transparent 60%),
+                  radial-gradient(900px 600px at 85% 35%, rgba(34,211,238,.16), transparent 60%),
+                  radial-gradient(900px 700px at 45% 95%, rgba(16,185,129,.10), transparent 60%),
+                  var(--bg);
+      color:var(--text);
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding:28px 18px;
+      overflow-x:hidden;
+    }
+
+    .wrap{
+      width:min(980px, 100%);
+      position:relative;
+    }
+
+    .glow{
+      position:absolute;
+      inset:-80px -40px;
+      background:
+        radial-gradient(600px 260px at 30% 20%, rgba(124,58,237,.18), transparent 60%),
+        radial-gradient(520px 240px at 80% 35%, rgba(34,211,238,.14), transparent 60%),
+        radial-gradient(560px 260px at 50% 90%, rgba(16,185,129,.10), transparent 60%);
+      filter: blur(18px);
+      pointer-events:none;
+      z-index:0;
+    }
+
+    .card{
+      position:relative;
+      z-index:1;
+      background: linear-gradient(180deg, rgba(11,16,34,.92), rgba(11,16,34,.78));
+      border:1px solid var(--line);
+      border-radius:24px;
+      box-shadow: var(--shadow);
+      padding:38px 34px;
+      overflow:hidden;
+    }
+
+    .card:before{
+      content:"";
+      position:absolute;
+      inset:-2px;
+      background: linear-gradient(90deg, rgba(124,58,237,.55), rgba(34,211,238,.45), rgba(16,185,129,.35));
+      opacity:.12;
+      filter: blur(14px);
+      z-index:0;
+    }
+
+    .inner{
+      position:relative;
+      z-index:1;
+    }
+
+    .topbar{
+      display:flex;
+      gap:12px;
+      align-items:center;
+      justify-content:space-between;
+      flex-wrap:wrap;
+      margin-bottom:18px;
+    }
+
+    .badge{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:8px 12px;
+      border-radius:999px;
+      border:1px solid var(--line);
+      background: rgba(255,255,255,.03);
+      color: var(--muted);
+      font-size:13px;
+      letter-spacing:.2px;
+    }
+
+    .dot{
+      width:10px;
+      height:10px;
+      border-radius:999px;
+      background: radial-gradient(circle at 30% 30%, #fff, rgba(255,255,255,.1));
+      box-shadow:
+        0 0 0 3px rgba(124,58,237,.20),
+        0 0 18px rgba(34,211,238,.25);
+    }
+
+    .title{
+      margin: 10px 0 10px;
+      font-size: clamp(36px, 5vw, 56px);
+      line-height:1.02;
+      letter-spacing:-.8px;
+    }
+
+    .title span{
+      background: linear-gradient(90deg, #EDE9FE, #CFFAFE, #D1FAE5);
+      -webkit-background-clip:text;
+      background-clip:text;
+      color:transparent;
+    }
+
+    .sub{
+      margin: 0 0 22px;
+      color: var(--muted);
+      font-size: 18px;
+      line-height:1.6;
+      max-width: 70ch;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap:18px;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 860px){
+      .grid{ grid-template-columns:1fr; }
+      .card{ padding:30px 22px; }
+    }
+
+    .panel{
+      border:1px solid var(--line);
+      border-radius:18px;
+      background: rgba(255,255,255,.03);
+      padding:18px 18px;
+    }
+
+    .panel h2{
+      margin:0 0 12px;
+      font-size:16px;
+      color:#E6E9F7;
+      letter-spacing:.3px;
+    }
+
+    .value{
+      display:grid;
+      gap:10px;
+      margin:0;
+      padding:0;
+      list-style:none;
+    }
+
+    .value li{
+      display:flex;
+      gap:10px;
+      align-items:flex-start;
+      color:#DCE2F3;
+      line-height:1.45;
+      font-size:15px;
+    }
+
+    .check{
+      flex:0 0 auto;
+      width:18px;
+      height:18px;
+      border-radius:6px;
+      margin-top:2px;
+      background: linear-gradient(135deg, rgba(124,58,237,.35), rgba(34,211,238,.30), rgba(16,185,129,.22));
+      border:1px solid rgba(255,255,255,.10);
+      position:relative;
+    }
+
+    .check:after{
+      content:"";
+      position:absolute;
+      left:5px; top:3px;
+      width:6px; height:10px;
+      border-right:2px solid rgba(255,255,255,.85);
+      border-bottom:2px solid rgba(255,255,255,.85);
+      transform:rotate(35deg);
+      opacity:.9;
+    }
+
+    .priceBox{
+      display:flex;
+      flex-direction:column;
+      gap:14px;
+    }
+
+    .priceLine{
+      display:flex;
+      align-items:baseline;
+      justify-content:space-between;
+      gap:12px;
+      padding:14px 14px;
+      border-radius:16px;
+      border:1px solid rgba(255,255,255,.10);
+      background: linear-gradient(180deg, rgba(124,58,237,.16), rgba(34,211,238,.06));
+    }
+
+    .label{
+      color: var(--muted);
+      font-size:13px;
+      letter-spacing:.25px;
+      text-transform:uppercase;
+    }
+
+    .price{
+      font-size: 34px;
+      letter-spacing:-.5px;
+      font-weight: 750;
+      background: linear-gradient(90deg, #EDE9FE, #CFFAFE);
+      -webkit-background-clip:text;
+      background-clip:text;
+      color:transparent;
+    }
+
+    .note{
+      color: var(--muted);
+      font-size: 14px;
+      line-height:1.5;
+      margin:0;
+    }
+
+    .ctaRow{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-top: 6px;
+    }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      padding: 12px 14px;
+      border-radius: 14px;
+      border:1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.04);
+      color: var(--text);
+      text-decoration:none;
+      font-weight: 650;
+      letter-spacing:.2px;
+      transition: transform .08s ease, background .18s ease, border-color .18s ease;
+      min-width: 180px;
+    }
+
+    .btn:hover{
+      transform: translateY(-1px);
+      background: rgba(255,255,255,.06);
+      border-color: rgba(255,255,255,.18);
+    }
+
+    .btn.primary{
+      border: none;
+      background: linear-gradient(90deg, rgba(124,58,237,.90), rgba(34,211,238,.80));
+      box-shadow: 0 14px 40px rgba(124,58,237,.22);
+    }
+
+    .btn.primary:hover{
+      filter: brightness(1.05);
+    }
+
+    .icon{
+      width:18px;
+      height:18px;
+      display:inline-block;
+      opacity:.95;
+    }
+
+    .divider{
+      height:1px;
+      background: var(--line);
+      margin: 18px 0;
+    }
+
+    .fine{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      align-items:center;
+      justify-content:space-between;
+      color: rgba(167,176,196,.92);
+      font-size:12.5px;
+      line-height:1.4;
+      margin-top: 18px;
+    }
+
+    .fine a{
+      color:#CFFAFE;
+      text-decoration:none;
+      border-bottom:1px dashed rgba(207,250,254,.35);
+    }
+    .fine a:hover{ border-bottom-color: rgba(207,250,254,.7); }
+
+    .pill{
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid var(--line);
+      background: rgba(255,255,255,.03);
+      white-space:nowrap;
+    }
+
+    .disclaimer{
+      margin: 0;
+      color: rgba(167,176,196,.92);
+      font-size:12.5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="glow"></div>
+
+    <main class="card">
+      <div class="inner">
+
+        <div class="topbar">
+          <div class="badge"><span class="dot"></span> Premium .COM Domain Opportunity</div>
+          <div class="badge">Instant transfer available</div>
+        </div>
+
+        <h1 class="title"><span>SmartCodeStack.com</span></h1>
+
+        <p class="sub">
+          A high-credibility, tech-forward brand name that reads like an established product.
+          Ideal for an AI coding platform, developer tools suite, SaaS company, or modern software consultancy.
+        </p>
+
+        <div class="grid">
+          <section class="panel">
+            <h2>Why this domain is valuable</h2>
+            <ul class="value">
+              <li><span class="check"></span><span><strong>Enterprise-ready naming:</strong> “Smart” signals intelligence/AI; “Code Stack” aligns with developer language and product positioning.</span></li>
+              <li><span class="check"></span><span><strong>Category-fit:</strong> Perfect for AI coding assistants, dev productivity tools, code quality platforms, or a developer learning brand.</span></li>
+              <li><span class="check"></span><span><strong>Memorable + trustworthy:</strong> Clear spelling, easy pronunciation, and the authority of a premium <strong>.com</strong>.</span></li>
+              <li><span class="check"></span><span><strong>Marketing-friendly:</strong> Strong for ads, podcasts, and word-of-mouth: “Go to SmartCodeStack dot com.”</span></li>
+              <li><span class="check"></span><span><strong>Brand runway:</strong> Expands cleanly into product lines (SmartCodeStack Studio, SmartCodeStack AI, SmartCodeStack Cloud).</span></li>
+            </ul>
+
+            <div class="divider"></div>
+
+            <p class="note">
+              Comparable brandable tech .com domains are often positioned in the mid–high four figures.
+              This name is priced to move while still reflecting premium brand value.
+            </p>
+          </section>
+
+          <aside class="panel priceBox">
+            <div class="priceLine">
+              <div>
+                <div class="label">Asking Price</div>
+                <div class="note">Buy it today • first come, first served</div>
+              </div>
+              <div class="price">$1,000</div>
+            </div>
+
+            <p class="note">
+              Contact directly for a fast, secure transfer. Escrow-friendly if preferred.
+            </p>
+
+            <div class="ctaRow">
+              <a class="btn primary" href="tel:9045763184" aria-label="Call 904-576-3184">
+                <svg class="icon" viewBox="0 0 24 24" fill="none">
+                  <path d="M8.5 3.5l2 3.8c.2.4.1.9-.2 1.2l-1.5 1.5c1.1 2.2 2.9 4 5.1 5.1l1.5-1.5c.3-.3.8-.4 1.2-.2l3.8 2c.5.3.7.9.5 1.4-.6 1.7-2 2.7-3.7 2.7C10.1 21.5 2.5 13.9 2.5 4.7 2.5 3 3.5 1.6 5.2 1c.5-.2 1.1 0 1.4.5z" stroke="rgba(255,255,255,.92)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Call Now
+              </a>
+
+              <a class="btn" href="mailto:david@transcredit.com?subject=SmartCodeStack.com%20Domain%20Inquiry&body=Hi%20David%2C%0A%0AI%27m%20interested%20in%20SmartCodeStack.com.%20Is%20it%20still%20available%3F%0A%0AThanks%2C%0A" aria-label="Email david@transcredit.com">
+                <svg class="icon" viewBox="0 0 24 24" fill="none">
+                  <path d="M4 6.5h16c.8 0 1.5.7 1.5 1.5v8c0 .8-.7 1.5-1.5 1.5H4c-.8 0-1.5-.7-1.5-1.5V8c0-.8.7-1.5 1.5-1.5z" stroke="rgba(255,255,255,.92)" stroke-width="1.6" />
+                  <path d="M4.5 8l7 5c.3.2.7.2 1 0l7-5" stroke="rgba(255,255,255,.92)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Email
+              </a>
+            </div>
+
+            <div class="fine">
+              <span class="pill">Secure transfer</span>
+              <span class="pill">Escrow optional</span>
+              <span class="pill">Fast response</span>
+            </div>
+
+            <p class="disclaimer">
+              Serious inquiries only. Buyer pays any marketplace/escrow fees if used.
+            </p>
+          </aside>
+        </div>
+
+      </div>
+    </main>
+  </div>
+</body>
+</html>
