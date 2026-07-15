@@ -20,3 +20,13 @@ The contact form is currently a demo. Connect it to a backend, Formspree, HubSpo
 The site includes `catalyst-award-2026.html`, announcing SureLoadr LLC as the 2026 Catalyst Award recipient and linking to `https://www.sureloadr.com/`.
 
 Upload the new page along with the updated `index.html` and `styles.css` to the repository root. Vercel will deploy automatically after the commit reaches `main`.
+
+
+## Expanded Catalyst Award content
+The 2026 award page now explains:
+- that the Catalyst Award is presented annually,
+- the award's purpose,
+- the annual selection criteria,
+- why SureLoadr was selected,
+- the industry problem SureLoadr addresses, and
+- the potential impact of SureLoadr's technology.

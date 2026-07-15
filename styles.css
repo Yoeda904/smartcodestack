@@ -92,3 +92,7 @@ footer{background:#04111e;color:#91a7ba;padding:42px max(24px,calc((100vw - var(
   .visit-sureloadr{display:block;border-radius:0}
   .visit-sureloadr .button{margin-top:20px}
 }
+
+
+.winner-seal span{max-width:240px;margin:0 auto;line-height:1.35}
+.award-criteria-section{padding-top:40px}
