@@ -14,3 +14,9 @@ The website presents Smart Code Stack as a discreet technology and philanthropic
 Upload all files to the document root for smartcodestack.com.
 
 The contact form is currently a demo. Connect it to a backend, Formspree, HubSpot, Web3Forms, or another approved form processor.
+
+
+## 2026 Catalyst Award page
+The site includes `catalyst-award-2026.html`, announcing SureLoadr LLC as the 2026 Catalyst Award recipient and linking to `https://www.sureloadr.com/`.
+
+Upload the new page along with the updated `index.html` and `styles.css` to the repository root. Vercel will deploy automatically after the commit reaches `main`.

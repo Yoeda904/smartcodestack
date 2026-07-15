@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="t d">
+<title id="t">Smart Code Stack logo</title><desc id="d">Three layered angular forms creating an S-shaped technology mark.</desc>
+<defs><linearGradient id="g" x1="15" y1="10" x2="105" y2="110" gradientUnits="userSpaceOnUse"><stop stop-color="#33D69F"/><stop offset=".5" stop-color="#31A8FF"/><stop offset="1" stop-color="#1767D8"/></linearGradient></defs>
+<path fill="url(#g)" d="M60 8 106 31 88 41 60 27 32 41 14 31 60 8Z"/>
+<path fill="url(#g)" opacity=".92" d="m32 41 28 14 28-14 18 10-46 23-46-23 18-10Z"/>
+<path fill="url(#g)" opacity=".8" d="m14 70 18-10 28 14 28-14 18 10-46 23-46-23Z"/>
+<path fill="url(#g)" opacity=".66" d="m32 79 28 14 28-14 18 10-46 23-46-23 18-10Z"/>
+</svg>
