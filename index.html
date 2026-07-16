@@ -133,10 +133,9 @@
     </section>
 
     <section class="section award-section">
-      <div class="award-mark" aria-hidden="true">
-        <div class="award-ring"></div>
-        <span>SCS</span>
-      </div>
+      <figure class="award-image-card">
+        <img src="assets/catalyst-award-trophy.webp" alt="Crystal Smart Code Stack Catalyst Award trophy displayed in a software development workspace" width="700" height="875">
+      </figure>
       <div>
         <p class="eyebrow">Annual Catalyst Award</p>
         <h2>SureLoadr LLC Named the 2026 Catalyst Award Winner</h2>
@@ -152,13 +151,18 @@
         <h2>Let’s discuss what you are building.</h2>
         <p>Tell us about your company, product, or technology initiative. We welcome conversations with founders, operators, investors, and strategic partners.</p>
       </div>
-      <form class="contact-form" action="#" method="post">
+      <form class="contact-form" action="https://formsubmit.co/davidwyoe@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New Smart Code Stack Website Inquiry">
+        <input type="hidden" name="_next" value="https://www.smartcodestack.com/contact-confirmation.html">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" class="form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
         <label>Full name<input type="text" name="name" autocomplete="name" required></label>
         <label>Email address<input type="email" name="email" autocomplete="email" required></label>
         <label>Company<input type="text" name="company" autocomplete="organization"></label>
         <label>How can we help?<textarea name="message" rows="5" required></textarea></label>
         <button class="button primary" type="submit">Send Inquiry</button>
-        <small>This demo form requires connection to a form service or backend before launch.</small>
+        <small class="form-privacy">Your information will be used only to respond to this inquiry.</small>
       </form>
     </section>
   </main>
